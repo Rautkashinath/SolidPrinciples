@@ -1,4 +1,4 @@
-﻿namespace SolidPrinciples
+﻿namespace SolidPrinciples.SRP
 {
     /// <summary>
     /// Survey class represents survey related activities
@@ -7,12 +7,12 @@
     {
         public void CreateSurvey()
         {
-            /// code to create the survey
+            // code to create the survey
         }
 
         public void EditSurvey()
         {
-            /// code to edit survey
+            // code to edit survey
         }
     }
 }

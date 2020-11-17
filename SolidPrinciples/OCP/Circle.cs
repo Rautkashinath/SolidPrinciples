@@ -1,14 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace SolidPrinciples.OCP
+﻿namespace SolidPrinciples.OCP
 {
+    /// <summary>
+    /// Class circle
+    /// </summary>
     class Circle : Shape
     {
-        override public void Draw()
+        /// <summary>
+        /// Method to draw a shape
+        /// </summary>
+        public override void Draw()
         {
-            /// Circle specific draw method
+            // Circle specific draw method
         }
     }
 }

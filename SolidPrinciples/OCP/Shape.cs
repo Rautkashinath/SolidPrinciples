@@ -1,11 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace SolidPrinciples.OCP
+﻿namespace SolidPrinciples.OCP
 {
+    /// <summary>
+    /// Class shape
+    /// </summary>
     abstract class Shape
     {
+        /// <summary>
+        /// draws shape
+        /// </summary>
         public abstract void Draw();
     }
 }

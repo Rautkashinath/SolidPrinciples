@@ -1,14 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace SolidPrinciples.OCP
+﻿namespace SolidPrinciples.OCP
 {
+    /// <summary>
+    /// Class rectangle
+    /// </summary>
     class Rectangle : Shape
     {
-        override public void Draw()
+        /// <summary>
+        /// method to draw a shape
+        /// </summary>
+        public override void Draw()
         {
-            /// Rectangle specfic draw method
+            // Rectangle specific draw method
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace SolidPrinciples
+﻿namespace SolidPrinciples.SRP
 {
     /// <summary>
     /// Class to handle mail related functionality
@@ -7,12 +7,12 @@
     {
         public void CreateMailContent()
         {
-            /// code to generate mail content
+            // code to generate mail content
         }
 
         public void SendMail()
         {
-            /// code to send mail
+            // code to send mail
         }
     }
 }
