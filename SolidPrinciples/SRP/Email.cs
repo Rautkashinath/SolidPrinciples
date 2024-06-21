@@ -1,7 +1,7 @@
 ﻿namespace SolidPrinciples.SRP
 {
     /// <summary>
-    /// Class to handle mail related functionality, single functionality
+    /// Class to handle mail related functionality
     /// </summary>
     public class Email
     {
